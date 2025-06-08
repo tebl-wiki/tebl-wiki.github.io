@@ -1,5 +1,9 @@
 site_name: TEBL WIKIKSITE
 theme: flatly
+repo_url: https://github.com/tebl-wiki/tebl-wiki.github.io
+edit_uri: 'blob/main/docs/'
+site_description: 'A comprehensive wiki for TEBL, the Minecraft-derived game creation.'
+site_author: 'TEBL Wiki Contributors'
 
 nav:
   - Home: index.md
