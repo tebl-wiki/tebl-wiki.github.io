@@ -1,10 +1,14 @@
-site_name: TEBL WIKIKSITE
+site_name: TEBL Wikilorine
 theme: flatly
-repo_url: https://github.com/tebl-wiki/tebl-wiki.github.io
+repo_url: 'https://github.com/tebl-wiki/tebl-wiki.github.io'
 edit_uri: 'blob/main/docs/'
-site_description: 'A comprehensive wiki for TEBL, the Minecraft-derived game creation.'
-site_author: 'TEBL Wiki Contributors'
+site_description: 'A spontaneous wiki for TEBL, the Minecraft-derived game creation.'
+site_author: 'TEBL Wikilorate'
+copyright: '© 2025 TEBL Wikilorine'
 
 nav:
   - Home: index.md
   - About: about.md
+
+not_in_nav: |
+  /private.md
