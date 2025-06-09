@@ -1,14 +1,36 @@
 site_name: TEBL Wikilorine
-theme: flatly
+theme:
+  name: 'material'
+  language: 'zh'  # 配置语言
+  palette:  # 颜色
+    primary: 'indigo'
+    accent: 'blue'
+  logo: 'images/favicon.png'
+  favicon: 'images/favicon.png'
+  feature:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.prune
+    - content.action.edit
+
+
 repo_url: 'https://github.com/tebl-wiki/tebl-wiki.github.io'
 edit_uri: 'blob/main/docs/'
 site_description: 'A spontaneous wiki for TEBL, the Minecraft-derived game creation.'
 site_author: 'TEBL Wikilorate'
 copyright: '© 2025 TEBL Wikilorine'
 
+markdown_extensions:
+  - admonition
+  - footnotes
+  - meta
+  - smarty
+  - codehilite:    # 代码高亮，显示行号
+      guess_lang: false
+      linenums: true
+  - toc:  # 锚点
+      permalink: true
+
 nav:
   - Home: index.md
-  - About: about.md
-
-not_in_nav: |
-  /private.md
